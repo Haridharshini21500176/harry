@@ -1,0 +1,36 @@
+.character-card {
+    display: flex;
+    border: solid rgb(234, 217, 217) 2px;
+    box-shadow: rgba(195, 184, 184, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 8px;
+    width: 36em;
+    height: 15em;
+    gap: 20px;
+}
+
+.name {
+    padding: 0px;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+}
+
+.status, .species, .last-seen {
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card-details {
+    font-family: sans-serif;
+}
+
+.character-card img {
+    border-radius: 20px;
+    width: 150px;
+    height: 190px;
+    object-fit: cover;
+}
